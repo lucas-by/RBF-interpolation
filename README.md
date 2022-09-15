@@ -15,9 +15,11 @@ This simple python code (`interpol_rbf.py`) allows you to simply perform [Radial
 
 Two working examples are provided in `example1d.py` and `example2d.py` files. They give the following results.
 
-![1d example](https://raw.githubusercontent.com/lucas-by/RBF-interpolation/main/images/example1d.png)
-
-![2d example](https://raw.githubusercontent.com/lucas-by/RBF-interpolation/main/images/example2d.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lucas-by/RBF-interpolation/main/images/example1d.png" alt="1d example" height="250">
+  <br>
+  <img src="https://raw.githubusercontent.com/lucas-by/RBF-interpolation/main/images/example2d.png" alt="2d example" height="250">
+</p>
 
 ## Requirements
 
