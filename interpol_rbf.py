@@ -90,6 +90,9 @@ class InterpolationRBF:
             sigopt = res.x
             self.hyperparameter = sigopt
 
+            if (abs(sigopt-0.01)<=0.0001) or (abs(sigopt-100)<=0.1):
+                print("\n\tWARNING: The hyperparameter did not converge, the model might be overfitted.\n")
+
             # Compute the weight vector, needed for making predictions
             weight_vec = self._weight_vector(samplex, sampley, sigopt)
 
